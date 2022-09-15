@@ -1,7 +1,6 @@
 ---
 layout: page
 title: NYbN Transcripts
-<!---title = at top of page-->
 navigation: 1
 ---
 
