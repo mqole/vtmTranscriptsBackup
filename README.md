@@ -14,3 +14,4 @@ Any suggestions, bugs, etc. shoot me a message either here or on <a href="https:
 - seperate 'season page' lists?
 - Check out the search function
 - Actually, y'know, do the transcripts.
+- clickable links different color
