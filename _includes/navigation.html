@@ -1,3 +1,5 @@
+<!---Previous code
+
 {% capture html %}
 <ul class="navigation" id="navigation">
 	{% assign entries = site.pages | sort: "navigation" %}
@@ -12,3 +14,13 @@
 	{% endfor %}
 </ul>
 {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
+--->
+
+{% capture html %}
+<ul class="navigation" id="navigation">
+	{% assign episodes = site.posts | where: "categories", "episode" %}
+	{% for post in episodes %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+   {% endfor %}
+</ul>
+{% endcapture %}
