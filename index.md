@@ -86,6 +86,6 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 
 When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## Credits
+New York by Night, VtM, etc. are all property of [World of Darkness](https://www.worldofdarkness.com/).
+Almost all of the code here is from the [Millidocs Dark Theme](https://github.com/flancast90/Millidocs-Dark), used under the open source [MIT License](https://opensource.org/licenses/MIT).

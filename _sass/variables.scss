@@ -6,9 +6,9 @@ $secondary-bg-color: #242526;
 $bg-hover-color: #3A3B3C;
 $text-primary: #E4E6EB;
 $text-secondary: #B0B3B8;
-$blue-accent-emphasis: #1f6feb;
-$blue-accent-muted: rgba(56,139,253,0.4);
-$blue-accent-subtle: rgba(56,139,253,0.15);
+$red-accent-emphasis: #E53A1A;
+$red-accent-muted: rgba(229,58,26,0.4);
+$red-accent-subtle: rgba(229,58,26,0.15);
 
 $base-height: 1em;
 $content-width: 800px;
@@ -17,12 +17,12 @@ $mobile-width: 745px;
 $min-width: 360px;
 $header-height: 50px;
 
-$link-color: $blue-accent-emphasis;
+$link-color: $red-accent-emphasis;
 
 $sidebar-border: 1px solid $text-secondary;
 $sidebar-color: $text-secondary;
 
 $navigation-background: $secondary-bg-color;
-$navigation-link-color: $blue-accent-emphasis;
+$navigation-link-color: $red-accent-emphasis;
 
 $content-color: $text-secondary;

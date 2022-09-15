@@ -10,9 +10,9 @@
   --bg-hover-color: #3A3B3C;
   --text-primary: #E4E6EB;
   --text-secondary: #B0B3B8;
-  --blue-accent-emphasis: #1f6feb;
-  --blue-accent-muted: rgba(56,139,253,0.4);
-  --blue-accent-subtle: rgba(56,139,253,0.15);
+  --red-accent-emphasis: #E53A1A;
+  --red-accent-muted: rgba(229,58,26,0.4);
+  --red-accent-subtle: rgba(229,58,26,0.15);
 }
 
 html {
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  color: var(--blue-accent-muted);
+  color: var(--red-accent-muted);
   background: var(--main-bg-color);
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
@@ -46,8 +46,8 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-  background-color: var(--blue-accent-emphasis);
-  border: 0.1rem solid var(--blue-accent-emphasis);
+  background-color: var(--red-accent-emphasis);
+  border: 0.1rem solid var(--red-accent-emphasis);
   border-radius: .4rem;
   color: var(--text-primary);
   cursor: pointer;
@@ -73,8 +73,8 @@ input[type='reset']:focus,
 input[type='reset']:hover,
 input[type='submit']:focus,
 input[type='submit']:hover {
-  background-color: var(--blue-accent-muted);
-  border-color: var(--blue-accent-muted);
+  background-color: var(--red-accent-muted);
+  border-color: var(--red-accent-muted);
   color: var(--text-primary);
   outline: 0;
 }
@@ -97,8 +97,8 @@ input[type='reset'][disabled]:focus,
 input[type='reset'][disabled]:hover,
 input[type='submit'][disabled]:focus,
 input[type='submit'][disabled]:hover {
-  background-color: var(--blue-accent-emphasis);
-  border-color: var(--blue-accent-emphasis);
+  background-color: var(--red-accent-emphasis);
+  border-color: var(--red-accent-emphasis);
 }
 
 .button.button-outline,
@@ -107,7 +107,7 @@ input[type='button'].button-outline,
 input[type='reset'].button-outline,
 input[type='submit'].button-outline {
   background-color: transparent;
-  color: var(--blue-accent-emphasis);
+  color: var(--red-accent-emphasis);
 }
 
 .button.button-outline:focus, .button.button-outline:hover,
@@ -120,8 +120,8 @@ input[type='reset'].button-outline:hover,
 input[type='submit'].button-outline:focus,
 input[type='submit'].button-outline:hover {
   background-color: transparent;
-  border-color: var(--blue-accent-muted);
-  color: var(--blue-accent-muted);
+  border-color: var(--red-accent-muted);
+  color: var(--red-accent-muted);
 }
 
 .button.button-outline[disabled]:focus, .button.button-outline[disabled]:hover,
@@ -134,7 +134,7 @@ input[type='reset'].button-outline[disabled]:hover,
 input[type='submit'].button-outline[disabled]:focus,
 input[type='submit'].button-outline[disabled]:hover {
   border-color: inherit;
-  color: var(--blue-accent-emphasis);
+  color: var(--red-accent-emphasis);
 }
 
 .button.button-clear,
@@ -144,7 +144,7 @@ input[type='reset'].button-clear,
 input[type='submit'].button-clear {
   background-color: transparent;
   border-color: transparent;
-  color: var(--blue-accent-emphasis);
+  color: var(--red-accent-emphasis);
 }
 
 .button.button-clear:focus, .button.button-clear:hover,
@@ -158,7 +158,7 @@ input[type='submit'].button-clear:focus,
 input[type='submit'].button-clear:hover {
   background-color: transparent;
   border-color: transparent;
-  color: var(--blue-accent-muted);
+  color: var(--red-accent-muted);
 }
 
 .button.button-clear[disabled]:focus, .button.button-clear[disabled]:hover,
@@ -170,7 +170,7 @@ input[type='reset'].button-clear[disabled]:focus,
 input[type='reset'].button-clear[disabled]:hover,
 input[type='submit'].button-clear[disabled]:focus,
 input[type='submit'].button-clear[disabled]:hover {
-  color: var(--blue-accent-emphasis);
+  color: var(--red-accent-emphasis);
 }
 
 code {
@@ -184,7 +184,7 @@ code {
 
 pre {
   background: var(--bg-hover-color);
-  border-left: 0.3rem solid var(--blue-accent-emphasis);
+  border-left: 0.3rem solid var(--red-accent-emphasis);
   overflow-y: hidden;
 }
 
@@ -233,7 +233,7 @@ input[type='text']:focus,
 input[type='url']:focus,
 textarea:focus,
 select:focus {
-  border-color: var(--blue-accent-emphasis);
+  border-color: var(--red-accent-emphasis);
   outline: 0;
 }
 
@@ -243,7 +243,7 @@ select {
 }
 
 select:focus {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="var(--blue-accent-emphasis)" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 29 14" width="29"><path fill="var(--red-accent-emphasis)" d="M9.37727 3.625l5.08154 6.93523L19.54036 3.625"/></svg>');
 }
 
 textarea {
@@ -446,12 +446,12 @@ input[type='radio'] {
 }
 
 a {
-  color: var(--blue-accent-emphasis);
+  color: var(--red-accent-emphasis);
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: var(--blue-accent-muted);
+  color: var(--red-accent-muted);
 }
 
 dl,
@@ -547,7 +547,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--blue-accent-muted);
+  color: var(--red-accent-muted);
   font-weight: 300;
   letter-spacing: -.1rem;
   margin-bottom: 2.0rem;
@@ -555,7 +555,7 @@ h6 {
 }
 
 h1 {
-  color: var(--blue-accent-emphasis);
+  color: var(--red-accent-emphasis);
   font-size: 4.6rem;
   line-height: 1.2;
 }
