@@ -10,17 +10,5 @@
 			</li>
 		{% endif %}
 	{% endfor %}
-	
-	<!---Begin mq's bs--->
-	{% assign episodes = site.posts | where: "tags", "episode" %}
-	{% for post in episodes %}
-		{% if post.navigation %}
-			<li>
-				<a class="{% if page.url == post.url post.url %}active{% endif %}" href="{{ post.url | relative_url }}">
-					{{ post.title }}
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
 </ul>
 {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
