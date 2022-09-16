@@ -8,7 +8,7 @@ VERY much a WIP. Currently still sorting out how to make the navigation on this 
 Any suggestions, bugs, etc. shoot me a message either here or on <a href="https://mqole.tumblr.com">my tumblr</a>.
 
 ## Known issues/to-do list/whatever
-- ~~Fix icon~~ of course it starts working AS i commit the readme
+- Fix icon
 - Fix navigation sidebar (make it view _posts)
 - index page rehaul
 - seperate 'season page' lists?
